@@ -6,7 +6,7 @@ d = [6 3 2 ; 2 12 -7 ; -1 6 2 ; -5 -15 11]
 %1
 3*a-5*c;
 %2
-7*a+2*b; %error Matrix dimensions doesn't agree.
+%%%%%7*a+2*b; %error Matrix dimensions doesn't agree.
 %3
 c*a;
 %4
@@ -30,7 +30,7 @@ diag [1 2 3 4];
 eye(2);
 %% Q3  
 %1
-[a,b]; %Error using horzcat Dimensions of matrices being concatenated are not consistent
+%%%%%%[a,b]; %Error using horzcat Dimensions of matrices being concatenated are not consistent
 %2
 [a:b];
 %% Q4
